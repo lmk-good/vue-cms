@@ -11,12 +11,24 @@ const routes = [
   {
     path: '/Login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "Login" */ '../components/Login')
+    component: () => import(/* webpackChunkName: "Login" */ '../views/Login')
   },
   {
     path: '/Home',
     name: 'Home',
-    component: () => import('../components/Home')
+    component: () => import('../views/Home'),
+    redirect: '/Welcome',
+    children: [
+      {
+        path: '/Welcome',
+        name: 'Home',
+        component: () => import('../views/Welcome')
+      },
+      {
+        path: '/users',
+        component: () => import('../components/users/User')
+      }
+    ]
   }
 ]
 
