@@ -3068,6 +3068,13 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
+echarts@^4.8.0:
+  version "4.8.0"
+  resolved "https://registry.npm.taobao.org/echarts/download/echarts-4.8.0.tgz#b2c1cfb9229b13d368ee104fc8eea600b574d4c4"
+  integrity sha1-ssHPuSKbE9No7hBPyO6mALV01MQ=
+  dependencies:
+    zrender "4.3.1"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -8232,6 +8239,13 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
+vue-table-with-tree-grid@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.npm.taobao.org/vue-table-with-tree-grid/download/vue-table-with-tree-grid-0.2.4.tgz#b60b22810ab861bdb669afb3d6f0079a4cee52a4"
+  integrity sha1-tgsigQq4Yb22aa+z1vAHmkzuUqQ=
+  dependencies:
+    vue "^2.4.3"
+
 vue-template-compiler@^2.6.11:
   version "2.6.11"
   resolved "https://registry.npm.taobao.org/vue-template-compiler/download/vue-template-compiler-2.6.11.tgz?cache=0&sync_timestamp=1577792788117&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-template-compiler%2Fdownload%2Fvue-template-compiler-2.6.11.tgz#c04704ef8f498b153130018993e56309d4698080"
@@ -8245,7 +8259,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^2.6.11:
+vue@^2.4.3, vue@^2.6.11:
   version "2.6.11"
   resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha1-dllNh31LEiNEBuhONSdcbVFBJcU=
@@ -8579,3 +8593,8 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+zrender@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.npm.taobao.org/zrender/download/zrender-4.3.1.tgz?cache=0&sync_timestamp=1588758471315&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fzrender%2Fdownload%2Fzrender-4.3.1.tgz#baf8aa6dc8187a2f819692d7d5f9bedfa2b90fa3"
+  integrity sha1-uviqbcgYei+BlpLX1fm+36K5D6M=
